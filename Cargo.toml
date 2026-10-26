@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-mintstick"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Mint USB stick formatter"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-mintstick"
+readme = "README.md"
+keywords = ["mintstick", "usb", "formatter"]
+categories = ["hardware-support"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
