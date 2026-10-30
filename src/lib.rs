@@ -3,4 +3,4 @@
 
 pub mod mintstick;
 
-pub use mintstick::Mintstick;
+pub use mintstick::MintstickManager;
